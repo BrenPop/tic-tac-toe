@@ -88,3 +88,13 @@ button:hover {
         font-size: 1.5rem;
     }
 }
+
+.x::before {
+    content: 'X';
+    color: #f00;
+}
+
+.o::before {
+    content: 'O';
+    color: #0f0;
+}
